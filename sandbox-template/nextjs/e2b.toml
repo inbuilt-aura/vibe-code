@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (3eikm7efklnwvg47lo3v) or template name (codesaas) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("codesaas") # Sync sandbox
+# sandbox = await AsyncSandbox.create("codesaas") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('codesaas')
+
+team_id = "a9b9e855-37fd-4bb5-ac0d-f5dde470c7f8"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "codesaas"
+template_id = "3eikm7efklnwvg47lo3v"
